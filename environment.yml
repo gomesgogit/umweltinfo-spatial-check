@@ -1,0 +1,14 @@
+name: umweltinfo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - geopandas
+  - shapely
+  - numpy
+  - folium
+  - jupyterlab
+  - ipykernel
+  - pip
+  - pip:
+      - "umwelt-apy[pandas]"

@@ -1,0 +1,10 @@
+# Jupyter
+.ipynb_checkpoints/
+__pycache__/
+
+# Data: keep only the snapshot, ignore VG250 (download from BKG, see README)
+data/*
+!data/results_*.json
+
+# Working notebooks
+notebook/api_test*.ipynb
